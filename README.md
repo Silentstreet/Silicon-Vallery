@@ -47,10 +47,11 @@ void merge(int x, int y) {
 ```
 
 ##### 并查集2.0
-```c++
+
 // 森林算法
 // 用pre[i]表示i在集合树上的父节点,当pre[i]等于i的时候,则表示i为这颗集合树的根节点
-
+![](./images/并查集.png)
+```c++
 int find(int x) {
 	return x == pre[x] ? x : find(pre[x]);
 }
@@ -90,7 +91,11 @@ void merge(int x, int y) {
 int find(int x) {
 	return x == pre[x] ? x : pre[x] == find(pre[x]);
 }
+```
 
+![](./images/路径压缩.drawio.png)
+
+```
 bool merge(int x, int y) {
 	int fx = find(x), int fy = find(y);
 	if(fx != fy) {
@@ -100,3 +105,4 @@ bool merge(int x, int y) {
 	return false;
 }
 ```
+![](./images/路径压缩.drawio.png)
