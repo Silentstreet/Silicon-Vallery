@@ -105,4 +105,3 @@ bool merge(int x, int y) {
 	return false;
 }
 ```
-![](./images/路径压缩.drawio.png)
