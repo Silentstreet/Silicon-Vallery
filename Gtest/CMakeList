@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(gtest01 LANGUAGES CXX)
+
+set(CMAKE_CVV_STANDARD 11)
+set(CMAKE_CVV_STANDARD_REQUIRED ON)
+
+enable_testing()
+find_package(GTest REQUIRED)
+find_package(Eigen3 REQUIRED)
+add_executable(gtest01 main.cpp)
+target_link_libraries(gtest01 GTEST::GTEST GTEST::Main)
+
