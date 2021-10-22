@@ -13,7 +13,7 @@ testing::ExitedWithCode(exit_code)
 ##### 死亡测试运行方式
 ```c++
 TEST(MyDeathTest, TestOne){
-    testing::FLAGGS_gtest_death_test_style = "threadsafe";
+    testing::FLAGS_gtest_death_test_style = "threadsafe";
     //给到参数：线程安全
     ASSERT_DEATH(ThisShouleDie(), "");
 }
@@ -25,7 +25,7 @@ TEST(MyDeathTest, TestTwo){
 
 int main(int argc, char** argv){
     testing::InitGoogleTest(&argc, argv);
-    testing::FLAGGS_gtest_death_test_style = "fast";
+    testing::FLAGS_gtest_death_test_style = "fast";
     return RUN_ALL_TESTS();
 }
 ```
