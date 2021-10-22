@@ -14,3 +14,6 @@ Google还包装了一系列的EXPECT_*和ASSERT_*的宏,而EXPECT_*和ASSERT_*�
 2. ASSERT_*失败时,直接在当前函数中返回,当前函数中ASSERT_*后面的语句将不会执行
 
 写单元测试的时候尽量用EXPECT_*,因为ASSERT_*是直接crash退出的,可能会导致一些内存、文件资源没有释放，因此可能引入一些bug  
+
+gtest和gmock的区别？  
+    gmock仅提供一个方便mock的工具，通过gmock可以方便地创建一个真实类的子类。
