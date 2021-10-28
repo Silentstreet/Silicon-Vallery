@@ -1,6 +1,7 @@
 2021-10-14 开始重新学习gtest框架
 
  gtest官方教程：https://google.github.io/googletest/primer.html
+ 其中完整的assert断言宏：https://google.github.io/googletest/reference/assertions.html
 
 #### 配置  
 1.ubuntu下配置gtest参考: https://blog.csdn.net/l1216766050/article/details/111094078  
