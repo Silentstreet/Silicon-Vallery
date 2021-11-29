@@ -105,3 +105,8 @@ bool merge(int x, int y) {
 	return false;
 }
 ```
+
+## 贪心算法  
+题目分类大纲如下：  
+
+1. [关于贪心算法，你该了解这些!](./problems/贪心算法理论基础.md)
