@@ -1,5 +1,8 @@
 # Silicon-Vallery
+
 How to get a job in Silicon Vallery
+
+记录从2021-9-30号   到入职期间学习到的东西
 
 目标:2022-12-30完成华为可信认证
 
