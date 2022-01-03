@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-12-28 20:25:43
- * @LastEditTime: 2021-12-28 20:28:56
+ * @LastEditTime: 2022-01-03 17:21:14
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: /Code/Silicon-Vallery/Zsh/tmux.md
@@ -65,5 +65,5 @@ set-window-option -g mode-keys vi
 set -g history-limit 100000
 ```
 
-= 通过ctrl + b + : 进入到tmux的命令行，　执行source /home/.tmux.conf命令，配置上去 =
+= 通过ctrl + b进入到tmux的命令行，再通过:键进入到tmux的命令行,执行source ~/.tmux.conf命令，配置上去
 
