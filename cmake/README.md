@@ -1,5 +1,7 @@
 需要系统地学习下camke,并且做好笔记.供以后使用
 
+主要参考和我一起写makefile:https://seisman.github.io/how-to-write-makefile/overview.html
+
 主要还是参考:https://blog.csdn.net/zhanghm1995/article/details/80902807
 
 ### 文章目录
